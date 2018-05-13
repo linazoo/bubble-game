@@ -8,6 +8,7 @@ class App extends Component {
     super(props);
     this.shoot = this.shoot.bind(this);
   }
+  
   componentDidMount() {
     const self = this;
     setInterval(() => {

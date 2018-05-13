@@ -9,7 +9,8 @@ const initialGameState = {
   lives: 3,
   flyingObjects: [],
   cannonBalls: [],
-  lastObjectCreatedAt: new Date()
+  lastObjectCreatedAt: new Date(),
+  boom: false
 };
 
 const initialState = {
