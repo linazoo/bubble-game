@@ -3,16 +3,16 @@ import PropTypes from 'prop-types';
 
 const FlyingObjectBase = (props) => {
   const style = {
-    fill: '#979797',
-    stroke: '#5c5c5c',
+    fill: '#d7f442',
+    stroke: '#d7f442',
   };
 
   return (
     <ellipse
       cx={props.position.x}
       cy={props.position.y}
-      rx="40"
-      ry="10"
+      rx="50"
+      ry="50"
       style={style}
     />
   );
