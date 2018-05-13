@@ -28,14 +28,6 @@ const Canvas = (props) => {
       </defs>
       <Sky />
       <Ground />
-      {props.gameState.cannonBalls.map(cannonBall => (
-        <CannonBall
-          key={cannonBall.id}
-          position={cannonBall.position}
-        />
-      ))}
-      <CannonPipe rotation={props.angle} />
-      <CannonBase />
       <CurrentScore score={props.gameState.kills} />
       
       { ! props.gameState.started &&
